@@ -1,0 +1,85 @@
+.div-one{
+    height: 300px;
+    width: 500px;
+    background-color: green;
+
+
+}
+.div-two {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+.div-three{
+    height: 200px;
+    width: 200px;
+    background-color: palegreen;
+    margin: 50px 0 0 50px;
+    transition: 1s;
+}
+.div-three:hover {
+    /*transform: scaleY(1.5);*/
+    /*transform: rotate(20deg);*/
+    /* transform: rotate(-90deg);*/
+    /*transform: rotateX(-90deg);*/
+    /*transform: translate(20px, 50px);*/
+    /*transform: skew(20deg);*/
+    /*transform: skew(-20deg);*/
+    transform: skewY(20deg);
+}
+
+.div-four{
+    height: 200px;
+    width: 100px;
+    background-color: gray;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    transform: skewY(45deg);
+}
+.div-five{
+    height: 200px;
+    width: 100px;
+    background-color: gray;
+    float: left;
+    margin-left: 15px;
+    margin-top: 50px;
+    transform: skewY(-45deg);
+}
+.div-six{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    float: left;
+    margin-left: 50px;
+    /*animation-name: bitm;*/
+    animation-name: imageslide;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+@keyframes bitm {
+    from {background-color: cornflowerblue;}
+    to {background-color: palegreen;}
+
+}
+
+@keyframes imageslide {
+    0% {
+        background-color: green;
+    }
+    25% {
+        background-color: palegreen;
+    }
+    50% {
+        background-color: darkolivegreen;
+    }
+    100% {
+        background-color: greenyellow;
+    }
+
+}

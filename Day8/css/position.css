@@ -1,0 +1,24 @@
+/*.position-fixed{
+    position: fixed;
+    !*top: 0;*!
+    bottom: 10px;
+}*/
+
+/*#positionSticky{
+    position: sticky;
+    top: 0;
+}*/
+
+.box-child{
+    height: 100px;
+    width: 100px;
+    background-color: lightcoral;
+    position: absolute; /*absolute always works with relative value*/
+    top: 0;
+     right: 0;
+}
+
+.positionRelative{
+    border: 2px solid brown;
+    position: relative;
+}

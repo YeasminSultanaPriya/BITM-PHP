@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+.div-one{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    float: left;
+    margin-left: 50px;
+    animation-name: imageslide;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+
+
+@keyframes imageslide {
+    0% {
+        background-image: url("images/1.jpg");
+    }
+    25% {
+        background-color: palegreen;
+    }
+    50% {
+        background-color: darkolivegreen;
+    }
+    100% {
+        background-color: greenyellow;
+    }
+
+}

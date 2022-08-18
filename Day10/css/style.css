@@ -1,0 +1,13 @@
+.slider-height {
+    height: 550px;
+}
+
+.my-caption {
+    bottom: 40%;
+    background-color: rgba(0,0,0,.4);
+    padding: 20px 25px;
+}
+
+.card-img-height {
+    height: 350px;
+}

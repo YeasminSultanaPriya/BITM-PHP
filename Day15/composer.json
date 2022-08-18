@@ -1,0 +1,16 @@
+{
+  "name": "day-15-b-8/day-15-b-8",
+  "type": "project",
+  "description": "",
+  "keywords": [],
+  "license": "",
+  "require": {},
+  "require-dev": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\" : "app//"
+    }
+  }
+}

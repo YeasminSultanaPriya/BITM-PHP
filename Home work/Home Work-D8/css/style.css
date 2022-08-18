@@ -1,0 +1,120 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.div-one{
+    height: 300px;
+    width: 50px;
+    background-color: aqua;
+    margin-left: 150px;
+    transform: skew(-200deg);
+    float: left;
+}
+
+.div-two{
+    height: 300px;
+    width: 50px;
+    background-color: aqua;
+    margin-left: 58px;
+    transform: skew(200deg);
+    float: left;
+}
+.div-three{
+    height: 40px;
+    width: 120px;
+    background-color: aqua;
+    margin-left: 58px;
+    float: left;
+    position: absolute;
+    top: 150px;
+    left: 110px;
+}
+
+.div-four{
+    height: 300px;
+    width: 50px;
+    background-color: aqua;
+    margin-left: 150px;
+    float: left;
+}
+
+.div-five{
+    height: 152px;
+    width: 150px;
+    background-color: aqua;
+    margin-left: 150px;
+    float: left;
+    border-radius: 0px 50px 50px 0px;
+    position: absolute;
+    /*top: 150px;*/
+    left: 350px;
+}
+.div-five-in{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin-left: 150px;
+    float: left;
+    border-radius: 0px 20px 20px 0px;
+    position: absolute;
+    top: 40px;
+    left: 360px
+}
+
+.div-six{
+    height: 152px;
+    width: 150px;
+    background-color: aqua;
+    margin-left: 150px;
+    float: left;
+    border-radius: 0px 50px 50px 0px;
+    position: absolute;
+    top: 155px;
+    left: 350px;
+}
+.div-six-in{
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    margin-left: 150px;
+    float: left;
+    border-radius: 0px 20px 20px 0px;
+    position: absolute;
+    top: 180px;
+    left: 360px
+}
+
+
+.div-seven{
+    height: 40px;
+    width: 200px;
+    background-color: aqua;
+    margin-left: 200px;
+    float: left;
+
+}
+.eight{
+    height: 230px;
+    width: 50px;
+    background-color: aqua;
+    transform: skew(-215deg);
+    float: left;
+    position: absolute;
+    top: 45px;
+    left: 785px;
+}
+
+.div-nine{
+    height: 40px;
+    width: 210px;
+    background-color: aqua;
+    margin-left: 200px;
+    float: left;
+    position: absolute;
+    top: 270px;
+    left: 505px;
+
+}
+
+

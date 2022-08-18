@@ -1,0 +1,16 @@
+/*
+CSS=>class based style sheet
+psudo class, psudo element
+attribute
+selector can be user defined and predefined but property can be only predefined
+'class' can be duplicated but 'id' can't
+*/
+
+/* syntax:
+selector{
+    property:value;
+}*/
+
+h1{
+    color: cadetblue;
+}

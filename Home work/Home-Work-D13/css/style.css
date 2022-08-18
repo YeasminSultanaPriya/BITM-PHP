@@ -1,0 +1,27 @@
+.navbar-section{
+    background-color: #222533;
+    height: 100px;
+}
+
+.top-bar-section {
+    background-color: #FFCB0F;
+    background-size: cover;
+    background-position: center;
+    /*height: 40px;*/
+}
+/*.topbar-address {
+    padding: 5px 0;
+}*/
+
+.top-bar {
+    float: left;
+    padding: 0 20px;
+}
+.topbar-icon {
+    float: left;
+    margin-left: 200px;
+
+}
+.slider-height{
+    height: 550px;
+}

@@ -1,0 +1,90 @@
+.banner-section {
+    height: 550px;
+    width: 100%;
+    background-image: url("../images/5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.banner-title {
+    font-size: 50px;
+    padding: 15px;
+}
+.p-l-15 {
+    padding-left: 15px;
+}
+.border-radius {
+    border-radius: 0;
+}
+
+.service-section {
+    background-color: #0e3e7f;
+}
+.card-img-height {
+    height: 300px;
+}
+
+.count-section {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.m-t-110 {
+    margin-top: 110px;
+}
+.exp-title {
+    color: #C5D4E9 ;
+}
+.box {
+    height: 3px;
+    width: 60px;
+    margin-bottom: 25px;
+    background-color: gray;
+}
+.about-card-shadow {
+    box-shadow: 0px 0px 14px 8px rgba(102,97,97,0.68);
+    -webkit-box-shadow: 0px 0px 14px 8px rgba(102,97,97,0.68);
+    -moz-box-shadow: 0px 0px 14px 8px rgba(102,97,97,0.68);
+
+}
+.team-section{
+    background-image: url("../images/Untitled1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.team-member-one {
+    background-image: url("../images/004.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+.team-member-two {
+    background-image: url("../images/011.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+.team-member-three {
+    background-image: url("../images/003.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+.btn-blue{
+    background-color: #143F7D;
+    color: white;
+}
+.content-right-img {
+    height: 525px;
+}
+.big-footer {
+    background-color: #143F7D;
+}
+
