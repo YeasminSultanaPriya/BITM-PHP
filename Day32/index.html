@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript</title>
+</head>
+<body>
+    <div id="container">
+
+    </div>
+
+<script>
+
+    // function
+    /*createDiv();
+    function createDiv() {
+        var div = document.createElement('div');
+        div.style.height = 200 + 'px';
+        div.style.width = 200 + 'px';
+        div.style.backgroundColor = 'red';
+        var container = document.getElementById('container');
+        container.append(div);*/
+
+    // createDiv(100, 300, 'red');
+    // createDiv(100, 350, 'green');
+    // createDiv(100, 400, 'blue');
+    // createDiv(100, 450, 'violet');
+    function createDiv(height, width, color) {
+        var div = document.createElement('div');
+        div.style.height = height + 'px';
+        div.style.width = width + 'px';
+        div.style.backgroundColor = color;
+        var container = document.getElementById('container');
+        container.append(div);
+
+
+    }
+    // document.write('hello world'+'<br>');
+
+    //variable
+    /*  *start with var
+        * no number in first char
+        *meaningful, readable, start with small letter
+        * concate operator = '+='
+        */
+    // var name = 10;
+    // var num = 'ten';
+    // document.write(name,num) ;
+    // document.write(typeof (num));
+    //FORIN
+      /*
+      for (index in data) {
+      }
+      */
+////////////////// Array //////////////
+
+   /* var array = ['Habib', 'Ali', 'Jakirul', 10, 20.1, true, false];
+    // document.write(array[2]+'<br>');
+    // document.write(data.length);
+    for (index in array){
+        document.write('Index is: '+ index + ' and value is ' +
+            '' + array[index]+'<br>');
+    }
+    */
+
+    var students = [
+        {name: 'Jakirul', phone: '013234', address: 'Dhaka'},
+        {name: 'YS', phone: '05243', address: 'Khulna'},
+        {name: 'Dola', phone: '05243', address: 'Khulna'},
+
+    ]
+    for (index in students){
+        document.write('Name is ' + students[index].name + ' Phone is: ' + students[index].phone + ' Address is: ' + students[index].address + '<br>')
+    }
+
+    /////////////// function //////////////
+    /*fullName();
+    function fullName() {
+        document.write('YS');
+
+    }*/
+    /*totalNumber();
+    function totalNumber() {
+        var x = 10;
+        var y = 20;
+        var z = x + y;
+        document.write(z);
+
+    }*/
+
+
+</script>
+
+
+</body>
+</html>
