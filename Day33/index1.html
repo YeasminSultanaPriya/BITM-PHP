@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        .parent-box{
+            margin-left: 150px;
+            margin-top: 150px;
+        }
+        .sub-image{
+            height: 100px;
+            width: 100px;
+            margin: 15px 5px;
+            cursor: pointer;
+        }
+        .mainImage{
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<div class="parent-box">
+    <img src="img/1.jpg" alt="" id="mainImage" style="height: 200px; width: 200px;">
+    <div>
+        <img src="img/1.jpg" alt="" id="imageOne" class="sub-image"/>
+        <img src="img/2.jpg" alt="" id="imageTwo" class="sub-image"/>
+        <img src="img/3.jpg" alt="" id="imageThree" class="sub-image"/>
+        <img src="img/3%20piece.jpg" id="imageFour" alt="" class="sub-image"/>
+    </div>
+</div>
+
+<script>
+    var mainImage = document.getElementById('mainImage');
+    var imageOne = document.getElementById('imageOne');
+    imageOne.onclick = function (){
+        var subImageSrc = imageOne.getAttribute('src');
+        mainImage.setAttribute('src', subImageSrc);
+
+    }
+    var imageTwo = document.getElementById('imageTwo');
+    imageTwo.onclick = function (){
+        var subImageSrc = imageTwo.getAttribute('src');
+        mainImage.setAttribute('src', subImageSrc);
+
+    }
+    var imageThree = document.getElementById('imageThree');
+    imageThree.onclick = function (){
+        var subImageSrc = imageThree.getAttribute('src');
+        mainImage.setAttribute('src', subImageSrc);
+
+    }
+    var imageFour = document.getElementById('imageFour');
+    imageFour.onclick = function (){
+        var subImageSrc = imageFour.getAttribute('src');
+        mainImage.setAttribute('src', subImageSrc);
+
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript</title>
+    <style>
+        .bitm{
+            transition: 2s;
+            transform: scale(.5);
+        }
+        .basis{
+            transition: 2s;
+            transform: scale(1.5);
+        }
+
+    </style>
+</head>
+<body>
+                <!---------------- Event ------------------>
+
+<h2 id="text">Hello world</h2>
+<input type="text" value="Hello Basis" id="inputOne" />
+<input type="text" value="Hello BASIS" id="" />
+<h1 id="printHere">Tiktok Esha</h1>
+<div><img src="img/1.jpg" id="image" alt="" style="margin-left: 120px; height: 200px; width: 200px" class=""></div>
+
+<script>
+
+    ///////////////// image /////////////
+
+        var mainImage = document.getElementById('image');
+        mainImage.onmouseover = function () {
+            mainImage.setAttribute('class', 'basis');
+
+        }
+        mainImage.onmouseleave = function () {
+            mainImage.setAttribute('class', 'bitm');
+
+        }
+        mainImage.onclick = function () {
+            mainImage.setAttribute('src','img/2.jpg');
+            mainImage.style.height = 300 + 'px';
+            mainImage.style.width = 300 + 'px';
+
+        }
+
+    ////////// tags that have start and closing tags /////////////
+
+    /*
+        var text = document.getElementById('text');
+        //console.log(text);
+        text.onclick = function () {
+            //alert('yo yo');
+            text.style.color = 'red';
+
+        }
+         text.onmouseover = function () {
+             //document.write('Hello BITM');
+             text.innerHTML = 'Hello BITM'; // tags that have start and close tag have to write innerHTML or innerText
+
+         }
+         text.onmouseleave = function () {
+            text.innerText = 'Good Bye';
+
+         }
+     */
+    ////////// tags that does not have closing tags /////////////
+
+    /*
+        var inputOne = document.getElementById('inputOne');
+           inputOne.onkeyup = function(){
+               var printTag = document.getElementById('printHere');
+               printTag.innerHTML = inputOne.value;
+           }
+
+           inputOne.onmouseover = function (){
+           inputOne.style.color = 'blue';
+           }
+           inputOne.onclick = function (){
+               inputOne.value = 'Hello World';
+           }
+           inputOne.onmouseover = function () {
+                   inputOne.value = 'Hello BITM';
+
+           }
+           inputOne.onblur = function () {
+                   alert('leave input field');
+                   var h1Value = document.getElementById('text');
+                   inputOne.value = 'hjdsfjk';
+           }
+
+
+   */
+
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #divOne{
+            height: 300px;
+            width: 300px;
+            background-color: black;
+        }
+        .parent-box{
+            margin-left: 150px;
+            margin-top: 150px;
+            border: 1px solid lightblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent-box">
+        <div id="divOne"></div>
+        <div style="margin-top: 50px">
+            <button type="button" id="red">Red</button>
+            <button type="button" id="blue">Blue</button>
+            <button type="button" id="yellow">yellow</button>
+            <button type="button" id="green">Green</button>
+            <button type="button" id="reset">Reset</button>
+        </div>
+    </div>
+
+    <script>
+        var redBtn = document.getElementById('red');
+        redBtn.onclick = function(){
+            var divOne = document.getElementById('divOne');
+            divOne.style.backgroundColor='red';
+        }
+        var blueBtn = document.getElementById('blue');
+        blueBtn.onclick = function(){
+            var divOne = document.getElementById('divOne');
+            divOne.style.backgroundColor='blue';
+        }
+        var yellowBtn = document.getElementById('yellow');
+        yellowBtn.onclick = function(){
+            var divOne = document.getElementById('divOne');
+            divOne.style.backgroundColor='yellow';
+        }
+        var greenBtn = document.getElementById('green');
+        greenBtn.onclick = function(){
+            var divOne = document.getElementById('divOne');
+            divOne.style.backgroundColor='green';
+        }
+        var resetBtn = document.getElementById('reset');
+        resetBtn.onclick = function(){
+            var divOne = document.getElementById('divOne');
+            divOne.style.backgroundColor='black';
+        }
+
+    </script>
+
+</body>
+</html>
