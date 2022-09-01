@@ -86,11 +86,16 @@
                    inputOne.value = 'Hello BITM';
 
            }
-           inputOne.onblur = function () {
+           inputOne.onblur = function () { //onblur => leave input field
                    alert('leave input field');
                    var h1Value = document.getElementById('text');
                    inputOne.value = 'hjdsfjk';
            }
+
+	inputOne.onblur = function () {
+            var h1Value = document.getElementById('text');
+            inputOne.value = h1Value.innerHTML;
+        }
 
 
    */

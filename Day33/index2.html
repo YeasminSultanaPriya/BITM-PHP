@@ -6,11 +6,12 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>jquery</title>
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 
 <body>
+ <!------------------------jQuery------------------------>
     <div class="container py-5">
         <div class="row">
             <div class="col-6 mx-auto">
@@ -46,6 +47,9 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script>
         function myCalculator(operator) {
+//var firstNumber = document.getElementById('firstNumber') or $('#firstNumber') is same ;
+// $ => jquery object sign and ('#lastNumber') => selector 
+// value in jquery is val()
             var firstNumber = Number($('#firstNumber').val());
             var lastNumber = Number($('#lastNumber').val());
             var result = 0;
