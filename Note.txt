@@ -1,0 +1,20 @@
+box shadow generator: https://cssgenerator.org/box-shadow-css-generator.html
+
+icon/logo generator: https://www.favicon-generator.org/
+
+
+construction site link: https://bootstrapthemes.co/demos?theme=construction
+
+files.fm => upload file
+img file link:
+https://files.fm/u/x5bc7frju
+
+Laravel:
+composer create-project laravel/laravel batch8-laravel
+cd batch8-laravel
+php artisan serve
+php artisan make:controller HomeController => make controller
+php artisan make:model Blog -m => make model + migration
+php artisan migrate => connect database with migrations
+
+orm vs querybuilder
