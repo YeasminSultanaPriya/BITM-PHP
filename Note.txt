@@ -1,3 +1,6 @@
+
+route->controller->view
+
 box shadow generator: https://cssgenerator.org/box-shadow-css-generator.html
 
 icon/logo generator: https://www.favicon-generator.org/
@@ -6,15 +9,71 @@ icon/logo generator: https://www.favicon-generator.org/
 construction site link: https://bootstrapthemes.co/demos?theme=construction
 
 files.fm => upload file
-img file link:
-https://files.fm/u/x5bc7frju
 
+@csrf => token for submit form
 Laravel:
+boot() => when a laravel project runs this method runs first
 composer create-project laravel/laravel batch8-laravel
 cd batch8-laravel
 php artisan serve
 php artisan make:controller HomeController => make controller
 php artisan make:model Blog -m => make model + migration
 php artisan migrate => connect database with migrations
+php artisan migrate:fresh => It deletes all the existing tables of the database and runs the migrate command.
 
 orm vs querybuilder
+// In eloquent ORM, $fillable attribute is an array containing all those fields of table which can be filled using mass-assignment. Mass assignment refers to sending an array to the model to directly create a new record in Database.
+
+composer require laravel/jetstream => used for authentication
+php artisan jetstream:install livewire => js framework for authentication page design
+
+after installation if node_modules folder does not apear : terminal
+npm install
+npm run build 
+and then => php artisan migrate
+
+
+https://startbootstrap.com/template/sb-admin 
+
+https://cdnjs.com/libraries/toastr.js/latest  => toastr cdn
+
+
+php artisan route:list => check route list
+
+php artisan make:controller Admin/BlogSubCategoryController -r =>resource controller
+
+Route:: => object (when we put scope resolution infront of a method it becomes object)
+
+get(),first(), find(), all() => data fatch methods in laravel
+
+https://summernote.org/getting-started/ => smart editor
+
+
+//Database seeding is populating a database with an initial set of data. It's common to load seed data such as initial user accounts or dummy data upon initial setup of an application.
+
+
+Available Validation Rules: https://laravel.com/docs/9.x/validation#available-validation-rules
+
+php artisan db:seed
+@extends('')=> blade directory
+
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=465/578
+MAIL_USERNAME=mn9788120@gmail.com
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=ssl/tsl
+MAIL_FROM_ADDRESS="hello@example.com"
+MAIL_FROM_NAME="${APP_NAME}"
+
+
+CKeditor : https://cdn.ckeditor.com/
+
+tinyurl.com/CVSource
+email : jp.basis.seip@gmail.com
+
+CV.Name.DEpt.DIU
+CV.Name.REg.PHP
+
+https://docs.google.com/forms/d/e/1FAIpQLSeljcBroZQtTjN8EYgbzlV5Z_zyGFuCGkipdoocO54uShJGDg/viewform?edit2=2_ABaOnuczdxRQsa-gn1_ArPrZ7Y7dMflGPz7333C04K3CMohpzK6ZITiKTNnIaV3JMQ
